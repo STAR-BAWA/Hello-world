@@ -1,0 +1,22 @@
+
+
+.div {
+    /* Add your regular styles here */
+    background-color: #ccc;
+    padding: 10px;
+    width: 25vw;
+    height: 20vh;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    margin: auto;
+}
+
+.div:hover {
+    /* Add your hover styles here */
+    background-color: blueviolet; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    border-radius: 100px;
+}
+
+

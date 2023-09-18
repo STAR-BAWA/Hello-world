@@ -5,7 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+
+.div {
+    /* Add your regular styles here */
+    background-color: #ccc;
+    padding: 10px;
+    width: 25vw;
+    height: 20vh;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    margin: auto;
+}
+
+@keyframes curve {
+    0%{
+        border-radius: 0px;
+
+
+    }
+    25%{
+        border-radius: 5px;
+    }
+    50%{
+        border-radius: 10px;
+
+    }
+    100%{
+        border-radius: 100%;
+    }
+    
+}
+.div:hover {
+    /* Add your hover styles here */
+    background-color: blueviolet; /* Change background color on hover */
+    color: #fff;
+    border-radius: 20px;
+    animation: curve;/* Change text color on hover */
+    animation-duration: 10ms;
+    animation-delay: 1ms;
+    animation-iteration-count:initial;
+}
+</style>
+
+
 <body>
     <h1>Chalo tikki kha k AAye</h1>
+
+    <div class="div">This is a div </div>
 </body>
+<script src="main.js"></script>
 </html>
